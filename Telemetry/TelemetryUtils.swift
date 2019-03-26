@@ -32,9 +32,9 @@ extension UInt64 {
         return UInt64(Swift.max(0.0, d))
     }
 
-    static func safeConvert<T: Integer>(_ val: T) -> UInt64 {
-        return UInt64(Swift.max(0, val))
-    }
+//    static func safeConvert<T: Integer>(_ val: T) -> UInt64 {
+//        return UInt64(Swift.max(0, val))
+//    }
 }
 
 
